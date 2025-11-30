@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial;
+  margin-bottom: -250px;
+  margin-top: -200px;
+}
+
+.form h1 {
+  color: green;
+}
+
+.form input {
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(6, 65, 6);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(4, 50, 4);
+}
+
+.form a {
+  color: rgb(6, 65, 6);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+@media (max-width: 1100px) {
+  .form {
+    width: 80%;
+    margin-top: -100px;
+  }
+
+  .form input {
+    width: 220px;
+    padding: 10px 18px;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .form {
+    width: 70%;
+    margin-top: -50px;
+  }
+
+  .form input {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .form a {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .form {
+    width: 90%;
+    margin-top: 0;
+    gap: 15px;
+  }
+
+  .form input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  .form a {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .form {
+    width: 95%;
+    margin-top: 0;
+    gap: 12px;
+  }
+
+  .form h1 {
+    font-size: 24px;
+  }
+
+  .form input {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+  .form a {
+    font-size: 11px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .form h1 {
+    font-size: 20px;
+  }
+
+  .form input {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 8px 0;
+  }
+
+  .form a {
+    font-size: 10px;
+  }
+}
